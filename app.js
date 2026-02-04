@@ -13,6 +13,9 @@ import courseRoutes from "./routes/course.routes.js";
 import notificationRoutes from './routes/notification.routes.js';
 import faqRoutes from './routes/faq.routes.js'; // Added FAQ routes
 import instructorRoutes from './routes/instructor.routes.js';
+import dotenv from 'dotenv';
+dotenv.config();
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
